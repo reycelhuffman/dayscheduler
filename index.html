@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"/>
-    <link rel="stylesheet" href="/style.css"/>
-    <title>Project Scheduler</title>
-    <header class="jumbotron bg-info ">
-      <h1 class="display-3">Work Day Scheduler <i class="fas fa-calendar"></i></h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <h3><br /> <span id="time-display"></span></h3>
-      <p id="currentDay" class="lead"></p>
-    </header>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <h2><br /> <span id="time-display">00:00:00</span></h2>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <div class="container">
+    <!-- Timeblocks go here -->
+
     <div class="input-group">
       <div class="input-group-prepend">
         <span class="left-input">9:00 A.M.</span>
@@ -49,7 +54,7 @@
       <div class="input-group-prepend">
         <span class="left-input">12:00 P.M.</span>
       </div>
-      <textarea id="twelve" type="text" class="form-control" style="background-color:rgb(199, 199, 199);"></textarea>
+<textarea id="twelve" type="text" class="form-control" style="background-color:rgb(199, 199, 199);"></textarea>
       <div class="input-group-append">
         <button id="12"class="col-span-2 h-16 " style="background-color:rgb(0,149,255)"><i class="fas fa-save"></i></button>
       </div>
@@ -100,10 +105,10 @@
       </div>
     </div>
   </div>
-  </body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="/script.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+
 </html>

@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-image: url("./monstera-leaves-tropical-background-vector-22334322.jpg");
 }
 
 textarea {
@@ -87,4 +88,14 @@ textarea {
 
 .col-span-2 {
   width: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 10px dashed;
+  border: 10px;
+  width: 80%;
+  align-items: center;
 }
