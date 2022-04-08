@@ -35,7 +35,7 @@ function showTextInput() {
 }
 // Create a color change for the hours past, present & future //
 function timeTracker() {
-    //get current number of hours.
+
     let hourNow = moment().hour();
 
     // loop over time blocks

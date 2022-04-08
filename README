@@ -1,0 +1,12 @@
+Day Schedule Project 
+Description
+    A day schedule that lets the user be able to save their hourly activity during the day.  Made through HTML and CSS. 
+    User should be able to access the hourly time and add important events during their day, with the time color changing for when the time shows their current activity reminding them about their time. 
+Shows 
+Time from 9AM to 5PM 
+current time should be white while the past red and green for the future events. 
+Each hour has a block to put content of the user's schedule.
+Once it is saved it will be saved into the local storage with then will be able to access later on. 
+PageURL and GitHub. 
+https://github.com/reycelhuffman/dayscheduler.git
+https://reycelhuffman.github.io/dayscheduler/
