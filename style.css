@@ -69,3 +69,22 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.inputGroupText {
+  background: rgb(39, 143, 164)
+
+}
+
+.input-group {
+  text-align: left;
+}
+
+.left-input {
+  width: 90px;
+  border: 1px dashed;
+  text-align: center;
+}
+
+.col-span-2 {
+  width: 70px;
+}
